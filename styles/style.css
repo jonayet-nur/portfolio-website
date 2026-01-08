@@ -26,6 +26,16 @@
     font-weight: bold;
     color: #FFF8F3;
     cursor: pointer;
+    margin-right: 18px;
+    transition: 0.7s ease-in-out;
+    
+}
+.btn:hover{
+    
+    background-color: #FFF8F3;
+    color: black;
+    border: 1px solid #FD6E0A;
+    transform: scaleY(1.1); 
 }
  .btn-center{
     text-align: center;
@@ -165,12 +175,17 @@ nav .menu a{
       padding: 30px; 
     box-shadow: 0 6px 50px 0 #00000013;
     max-width: 267px; 
-      
+    transition: 0.8s ease-out;
 }
  .skill-card img{
+    
     max-width: 44px;
     margin-bottom: 30px;
 }
+ .skill-card:hover{
+    
+    transform: scale(1.1);
+ }
  .skill-card h3{
     font-size: 20px;
     margin-bottom: 20px;
